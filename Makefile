@@ -13,4 +13,4 @@ package-install:
 brain-games:
 	poetry run brain-games
 
-.PHONY: install
+.PHONY: install build publish package-install
