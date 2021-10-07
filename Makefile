@@ -10,7 +10,10 @@ publish:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
+lint:
+	poetry run flake8 brain_games
+
 brain-games:
 	poetry run brain-games
 
-.PHONY: install build publish package-install
+.PHONY: install build publish package-install lint
