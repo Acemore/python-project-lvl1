@@ -18,7 +18,7 @@ def run_game(game_rules, data_in, correct_answer):
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'."
                 .format(user_answer, correct_answer[i])
-            )          
+            )
             print("Let's try again, {}!".format(user_name))
 
             exit()
