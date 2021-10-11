@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
+from brain_games.brain_game_even import play_game_even
+
+
 def main():
-    pass
+    play_game_even()
 
 
 if __name__ == '__main__':
