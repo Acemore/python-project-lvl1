@@ -1,4 +1,5 @@
 import prompt
+from brain_games import rounds_count
 
 
 def run_game(game_rules, data_in, correct_answer):
@@ -8,7 +9,7 @@ def run_game(game_rules, data_in, correct_answer):
 
     print(game_rules)
 
-    for i in range(3):
+    for i in range(rounds_count):
         print('Question: {}'.format(data_in[i]))
         user_answer = prompt.string('Your answer: ')
 
