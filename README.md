@@ -4,3 +4,5 @@
 ![linter-check workflow](https://github.com/Acemore/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
 brain-even asciicast - https://asciinema.org/a/33UdN93UT3L4BmmaRADihgOKZ
+
+brain-calc asciicast - https://asciinema.org/a/uafuxqeDwR94EHzI9nY3XVk68
