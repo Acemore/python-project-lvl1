@@ -6,3 +6,5 @@
 brain-even asciicast - https://asciinema.org/a/33UdN93UT3L4BmmaRADihgOKZ
 
 brain-calc asciicast - https://asciinema.org/a/uafuxqeDwR94EHzI9nY3XVk68
+
+brain-gcd asciicast - https://asciinema.org/a/Kt1cCEVVfajhkR1aFYsMlJiRG
