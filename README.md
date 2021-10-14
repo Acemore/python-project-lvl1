@@ -3,8 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 ![linter-check workflow](https://github.com/Acemore/python-project-lvl1/actions/workflows/linter-check.yml/badge.svg)
 
-brain-even asciicast - https://asciinema.org/a/33UdN93UT3L4BmmaRADihgOKZ
-
-brain-calc asciicast - https://asciinema.org/a/uafuxqeDwR94EHzI9nY3XVk68
-
-brain-gcd asciicast - https://asciinema.org/a/Kt1cCEVVfajhkR1aFYsMlJiRG
+[![asciicast](https://asciinema.org/a/33UdN93UT3L4BmmaRADihgOKZ.svg)](https://asciinema.org/a/33UdN93UT3L4BmmaRADihgOKZ)
+[![asciicast](https://asciinema.org/a/uafuxqeDwR94EHzI9nY3XVk68.svg)](https://asciinema.org/a/uafuxqeDwR94EHzI9nY3XVk68)
+[![asciicast](https://asciinema.org/a/Kt1cCEVVfajhkR1aFYsMlJiRG.svg)](https://asciinema.org/a/Kt1cCEVVfajhkR1aFYsMlJiRG)
+[![asciicast](https://asciinema.org/a/uaoGmV99ezhOpkegbWo8QhHfj.svg)](https://asciinema.org/a/uaoGmV99ezhOpkegbWo8QhHfj)
