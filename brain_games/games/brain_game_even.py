@@ -1,31 +1,12 @@
 from random import randint
-from brain_games import rounds_count
-from brain_games.brain_games_engine import run_game
 
 
-def get_random_numbers():
-    random_numbers = []
-
-    [random_numbers.append(randint(0, 100)) for _ in range(rounds_count)]
-
-    return random_numbers
+GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def is_even(random_numbers_list):
-    is_even_list = []
-
-    for i in range(rounds_count):
-        if random_numbers_list[i] % 2 == 0:
-            is_even_list.append('yes')
-        else:
-            is_even_list.append('no')
-
-    return is_even_list
+def get_question():
+    return randint(0, 100)
 
 
-def play_game_even():
-    game_rules = 'Answer "yes" if the number is even, otherwise answer "no".'
-    random_numbers = get_random_numbers()
-    correct_answers = is_even(random_numbers)
-
-    run_game(game_rules, random_numbers, correct_answers)
+def get_answer(random_number):
+    return 'yes' if random_number % 2 == 0 else 'no'

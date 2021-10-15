@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.games.brain_game_calc import play_game_calc
+from brain_games.brain_games_engine import run_game
+import brain_games.games.brain_game_calc as brain_game_calc
 
 
 def main():
-    play_game_calc()
+    run_game(brain_game_calc)
 
 
 if __name__ == "__main__":
