@@ -1,11 +1,15 @@
 from random import randint
+from brain_games.games import MAX_INT_TO_RANDOM, MIN_INT_ONE_TO_RANDOM
 
 
 GAME_RULES = 'Find the greatest common divisor of given numbers.'
 
 
 def get_question():
-    return '{} {}'.format(randint(1, 100), randint(1, 100))
+    return '{} {}'.format(
+        randint(MIN_INT_ONE_TO_RANDOM, MAX_INT_TO_RANDOM),
+        randint(MIN_INT_ONE_TO_RANDOM, MAX_INT_TO_RANDOM)
+    )
 
 
 def get_answer(question):

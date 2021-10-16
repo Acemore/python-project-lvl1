@@ -1,14 +1,16 @@
 import random
+from brain_games.games import MAX_INT_TO_RANDOM, MIN_INT_ZERO_TO_RANDOM
 
 
 GAME_RULES = 'What is the result of the expression?'
+OPERATIONS_STRING = '+-*'
 
 
 def get_question():
     return '{} {} {}'.format(
-        random.randint(0, 100),
-        random.choice('+-*'),
-        random.randint(1, 101)
+        random.randint(MIN_INT_ZERO_TO_RANDOM, MAX_INT_TO_RANDOM),
+        random.choice(OPERATIONS_STRING),
+        random.randint(MIN_INT_ZERO_TO_RANDOM, MAX_INT_TO_RANDOM)
     )
 
 
