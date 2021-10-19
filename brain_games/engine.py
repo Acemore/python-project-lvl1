@@ -9,16 +9,15 @@ def run_game(game):
     user_name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(user_name))
 
-    print(game.GAME_RULES)
+    print(game.RULES)
 
     for _ in range(ROUND_COUNT):
-        question = game.get_question()
-        correct_answer = str(game.get_answer(question))
+        question, correct_answer = game.get_question_and_answer()
 
         print('Question: {}'.format(question))
         user_answer = prompt.string('Your answer: ')
 
-        if user_answer == correct_answer:
+        if user_answer == str(correct_answer):
             print('Correct!')
         else:
             print(
