@@ -1,7 +1,9 @@
 from math import sqrt
-from random import randint
-from brain_games.games import MAX_INT_TO_RANDOM, MIN_INT_ONE_TO_RANDOM
-
+from brain_games.games import (
+    MAX_INT_TO_RANDOM,
+    MIN_INT_ONE_TO_RANDOM,
+    get_parameters_for_question_and_answer
+)
 
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -21,7 +23,6 @@ def is_prime(number):
 
 
 def get_question_and_answer():
-    question = randint(MIN_INT_ONE_TO_RANDOM, MAX_INT_TO_RANDOM)
-    answer = 'yes' if is_prime(question) else 'no'
-
-    return question, answer
+    return get_parameters_for_question_and_answer(
+        MIN_INT_ONE_TO_RANDOM, MAX_INT_TO_RANDOM, is_prime
+    )
