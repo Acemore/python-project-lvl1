@@ -24,11 +24,8 @@ def calculate_progression_terms():
 
     progression = []
 
-    for i in range(progression_length):
+    for _ in range(progression_length):
         progression.append(progression_term)
-
-        if i == progression_length - 1:
-            break
 
         progression_term += progression_common_difference
 
@@ -53,4 +50,4 @@ def get_question_and_answer():
     answer = progression[term_to_hide_index]
     question = get_progression_string(progression, term_to_hide_index)
 
-    return (question, answer)
+    return question, answer

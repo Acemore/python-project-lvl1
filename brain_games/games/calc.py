@@ -20,4 +20,4 @@ def get_question_and_answer():
     else:
         answer = first_operand * second_operand
 
-    return (question, answer)
+    return question, answer

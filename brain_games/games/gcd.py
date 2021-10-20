@@ -25,4 +25,4 @@ def get_question_and_answer():
 
     answer = find_gcd(first_random_int, second_random_int)
 
-    return (question, answer)
+    return question, answer
